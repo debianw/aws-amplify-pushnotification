@@ -91,7 +91,7 @@ public class RNPushNotificationBroadcastReceiver extends BroadcastReceiver {
                 mReactInstanceManager.createReactContextInBackground();
             }
         }
-        openApp(context);
+        // openApp(context);
         openApp(context, intent.getBundleExtra("notification"));
     }
 
